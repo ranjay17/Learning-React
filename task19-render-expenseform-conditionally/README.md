@@ -1,12 +1,29 @@
-# React + Vite
+# 🧾 Task 19 - Conditionally Render Expense Form in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of the **React Learning Series**. In this task, we focus on **conditionally rendering the Expense Form** using React's state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Objective
 
-## Expanding the ESLint configuration
+- Show or hide the `ExpenseForm` based on user interaction.
+- Use `useState` to manage visibility.
+- Render the `NewExpense` button initially.
+- Show the form when the button is clicked.
+- Provide a way to cancel the form and return to the button view.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- `ExpenseForm` renders conditionally.
+- "Add New Expense" button triggers form display.
+- "Cancel" button hides the form.
+- Form state is clean and reusable.
+
+---
+
+## 🧠 What I Learned
+
+- Conditional rendering using:
+  ```jsx
